@@ -1,0 +1,24 @@
+/* All three buttons are mapped to one other button, but the release of the button is independent. That is, when you press your AC key, the mapped keys are pressed and then released without requiring you to release your AC key. Only one pulse per input is allowed. The duration of the pulse can be modified, but note that too short a pulse may not be recognized by your PC.
+ 
+How to Use: Left-click and then press space to cancel the animation. You can click for your next action before you release the spacebar. 
+Pros: larger timing window for starting your next action, making it easier to learn and do well
+Cons: movement while animation canceling is much more difficult
+
+This script remaps all animation canceling keys to space. */ 
+
+; 3:1 Pulse 
+#IfWinActive ahk_exe Stardew Valley
+Space::
+Send {Del down}{RShift down}{r down}{Del up}{RShift up}{r up}
+
+/* If the script above does not work, comment it out or delete it and then uncomment the script below. You can reduce the sleep number, but note that too short of a pulse may not be recognized by your PC. */
+
+/* ; 3:1 Pulse
+#IfWinActive ahk_exe Stardew Valley
+Space::
+    SendInput {Del down}{RShift down}{r down}
+    sleep 25 ;this number can be changed depending on system
+    sendInput {Del up}{RShift up}{r up}
+    Return
+
+*/
