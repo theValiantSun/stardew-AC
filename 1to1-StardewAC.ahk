@@ -2,7 +2,9 @@
  
 How to Use: Left-click and then press all three of your keys to cancel the animation. You must release these keys before you can click again for your next action. 
 Pros: usually easier to natively implement than other remapping methods
-Cons: much harder to execute and causes more wear on hands and peripherals */ 
+Cons: much harder to execute and causes more wear on hands and peripherals 
+
+This script maps R to XButton1, RShift to XButton2, and Delete to Space. */ 
 
 ; 1:1 Rebind 
 #IfWinActive ahk_exe Stardew Valley.exe
