@@ -16,9 +16,15 @@ This technique is done by pressing `RightShift`+`R`+`Delete` (`+fn` if you are p
 For speedrunning, we allow 1:1, 2:1, and 3:1 mappings of the animation canceling keys. This repository has the approved AutoHotKey (AHK) scripts--a program available for Windows--you can use, as well as resources for implementation on other operating systems. Note that the keys shown in these scripts are the most common ones used by runners. You are free to change to whichever keys you would like. Timing for the pulse duration can be changed as well (see the pulse script).
 
 ### AutoHotKey (AHK) Scripts
-- [1:1 Rebind](https://github.com/theValiantSun/stardew-AC-scripts/blob/main/1to1-StardewAC.ahk) - easiest to implement natively than other remaps, but is harder to execute and causes more wear on peripherals and hands. 
-- [3:1 Rebind](https://github.com/theValiantSun/stardew-AC-scripts/blob/main/3to1-Rebind-StardewAC.ahk) - scythe canceling and movement while AC'ing is easier, but the timing is more precise than the pulse method.
-- [3:1 Pulse](https://github.com/theValiantSun/stardew-AC-scripts/blob/main/3to1-Pulse-StardewAC) - largest timing window for AC which makes it easier to learn and do well, but AC'ing can also cancel your movement.
+- [1:1 Rebind](https://github.com/theValiantSun/stardew-AC-scripts/blob/main/1to1-StardewAC.ahk)
+  - **Pros**: usually easier to natively implement than other remapping methods.
+  - **Cons**: much harder to execute and causes more wear on peripherals and hands.
+- [3:1 Rebind](https://github.com/theValiantSun/stardew-AC-scripts/blob/main/3to1-Rebind-StardewAC.ahk)
+  - **Pros**: forage pick-up and harvesting with scythe is quicker, movement is easier.
+  - **Cons**: timing is more precise than pulse, so it can be more difficult to execute.
+- [3:1 Pulse](https://github.com/theValiantSun/stardew-AC-scripts/blob/main/3to1-Pulse-StardewAC) 
+  - **Pros**: larger timing window for starting your next action, making it easier to learn and do well than rebinding.
+  - **Cons**: moving while animation canceling is much more difficult.
 
 ### Karabiner (Mac Only)
 Macs are complicated and the additional `fn` key messes with a lot of things, which restricts us to a maximum of a 2:1 mapping. Using the two scripts provided below allows you to use `Space`+`V` for animation canceling, but you can use the webpage to craft your own 1:1 or 2:1 mappings. 
